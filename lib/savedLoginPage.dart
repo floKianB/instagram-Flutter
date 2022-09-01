@@ -16,7 +16,7 @@ class _savedLoginPageState extends State<savedLoginPage> {
         child: Column(
           children: [
             Expanded(
-              flex: 14,
+              flex: 11,
               child: Container(
                 child: Stack(
                   children: [
@@ -56,7 +56,8 @@ class _savedLoginPageState extends State<savedLoginPage> {
                               'Kian Baban',
                               style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 22,
+                                fontSize: 24,
+                                fontWeight: FontWeight.w600,
                               ),
                             ),
                             SizedBox(
